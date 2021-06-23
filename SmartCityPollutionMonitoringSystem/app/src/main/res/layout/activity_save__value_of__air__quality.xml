@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Save_Value_of_Air_Quality">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:background="@drawable/borders"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:background="@drawable/roundedbuttons"
+        android:layout_marginTop="15dp"
+        android:textColor="#fffafa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Current Value of Air Quality" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Previously Saved Values of Air Quality" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="477dp"
+        android:text="" />
+</LinearLayout>
